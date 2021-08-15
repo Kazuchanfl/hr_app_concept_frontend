@@ -13,6 +13,7 @@
   "author": "Kazuchanfl",
   "license": "ISC",
   "dependencies": {
+    "@vue/cli": "^4.5.13",
     "vue": "^3.2.2"
   }
 }
