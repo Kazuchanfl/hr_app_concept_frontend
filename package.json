@@ -11,5 +11,8 @@
     "url": "git@github-private:Kazuchanfl/hr_app_concept_frontend.git"
   },
   "author": "Kazuchanfl",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.2"
+  }
 }
