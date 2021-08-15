@@ -1,28 +1,27 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>This is created by {{ accountName }}.</h1>
 
   <p>
-    <a href="https://github.com/Kazuchanfl" target="_blank">
-      Kazuchanfl's GitHub Profile
+    <a :href="githubLink + accountName" target="_blank">
+      {{ accountName }}'s GitHub Profile
     </a>
   </p>
 
-  <button type="button" @click="count++">count is: {{ count }}</button>
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from 'vue'
+import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'MyComponent',
   props: {
-    msg: {
+    accountName: {
       type: String,
       required: true
     }
   },
   setup: () => {
-    const count = ref(0)
-    return { count }
+      const githubLink = `https://github.com/`
+      return { githubLink }
   }
 })
 </script>
