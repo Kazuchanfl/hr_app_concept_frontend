@@ -12,7 +12,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 export default defineComponent({
-  name: 'GitHubProfile',
+  name: 'Home',
   props: {
     accountName: {
       type: String,
