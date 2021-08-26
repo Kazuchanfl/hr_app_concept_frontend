@@ -2,19 +2,19 @@
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   <br>
-  <GitHubProfile accountName="Kazuchanfl" />
+  <Home accountName="Kazuchanfl" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
-import GitHubProfile from './components/GitHubProfile.vue'
+import Home from './Home.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
     HelloWorld,
-    GitHubProfile
+    Home
   }
 })
 </script>
