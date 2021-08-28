@@ -1,17 +1,21 @@
 <template>
-  <h1>This is created by {{ accountName }}.</h1>
+  <Header></Header>
+  <!-- <h1>This is created by {{ accountName }}.</h1>
 
   <p>
     <a :href="githubLink + accountName" target="_blank">
       {{ accountName }}'s GitHub Profile
     </a>
-  </p>
+  </p> -->
 
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import Header from './components/Header.vue'
+
 export default defineComponent({
+  components: { Header },
   name: 'Home',
   props: {
     accountName: {
@@ -22,7 +26,7 @@ export default defineComponent({
   setup: () => {
       const githubLink = `https://github.com/`
       return { githubLink }
-  }
+  },
 })
 </script>
 
