@@ -1,45 +1,31 @@
 <template>
-  <h1>This is created by {{ accountName }}.</h1>
-
-  <p>
-    <a :href="githubLink + accountName" target="_blank">
-      {{ accountName }}'s GitHub Profile
-    </a>
-  </p>
-
+  <h1>HR App Concept</h1>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 export default defineComponent({
-  name: 'Home',
-  props: {
-    accountName: {
-      type: String,
-      required: true
-    }
-  },
-  setup: () => {
-      const githubLink = `https://github.com/`
-      return { githubLink }
-  }
+  name: 'Logo',
 })
 </script>
 
 <style scoped>
-a {
-  color: #42b983;
-}
+h1 {
+  position: absolute;
+  left: 0%;
+  right: 72.52%;
+  top: 7.04%;
+  bottom: 8.45%;
 
-label {
-  margin: 0 0.5em;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
-}
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-code {
-  background-color: #eee;
-  padding: 2px 4px;
-  border-radius: 4px;
-  color: #304455;
+  color: #000000;
 }
 </style>
