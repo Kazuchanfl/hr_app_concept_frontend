@@ -12,10 +12,6 @@ export default defineComponent({
 <style scoped>
 h1 {
   position: absolute;
-  left: 0%;
-  right: 72.52%;
-  top: 7.04%;
-  bottom: 8.45%;
 
   font-family: Roboto;
   font-style: normal;
@@ -25,6 +21,8 @@ h1 {
   display: flex;
   align-items: center;
   text-align: center;
+
+  margin: 20px;
 
   color: #000000;
 }
