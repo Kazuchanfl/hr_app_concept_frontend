@@ -1,5 +1,4 @@
 <template>
-  <Logo></Logo>
 </template>
 
 <script lang="ts">
