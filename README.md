@@ -2,6 +2,8 @@
 
 This is an example frontend project of HR App!
 
+https://hr-app-concept.netlify.app
+
 # Setup
 
 ### Run App
