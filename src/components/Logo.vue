@@ -11,8 +11,6 @@ export default defineComponent({
 
 <style scoped>
 h1 {
-  position: absolute;
-
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
