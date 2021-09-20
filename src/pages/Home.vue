@@ -1,13 +1,5 @@
 <template>
   <Header></Header>
-  <!-- <h1>This is created by {{ accountName }}.</h1>
-
-  <p>
-    <a :href="githubLink + accountName" target="_blank">
-      {{ accountName }}'s GitHub Profile
-    </a>
-  </p> -->
-
 </template>
 
 <script lang="ts">

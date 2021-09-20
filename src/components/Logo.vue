@@ -1,5 +1,5 @@
 <template>
-  <h1>HR App Concept</h1>
+  <h1>Go All Out</h1>
 </template>
 
 <script lang="ts">
