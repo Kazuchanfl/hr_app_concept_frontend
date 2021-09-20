@@ -13,7 +13,6 @@ export default defineComponent({
 h1 {
   position: absolute;
 
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
