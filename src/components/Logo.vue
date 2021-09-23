@@ -20,6 +20,8 @@ a#Logo {
   text-align: center;
   text-decoration: none;
 
+  width: 200px;
+
   margin: 20px;
 
   color: #000000;

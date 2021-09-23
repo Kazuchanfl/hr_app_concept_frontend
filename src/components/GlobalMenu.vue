@@ -33,6 +33,8 @@ a {
   text-align: center;
   text-decoration: none;
 
+  width: 150px;
+
   margin: 20px;
 
   color: #000000;
