@@ -25,7 +25,7 @@ export default defineComponent({
 *{box-sizing: border-box;}
 
 div.menu-background {
-  background: aqua;
+  background: linear-gradient(#f19aff, #66f6ff);
   position: absolute;
   left: 0;
   top: 0;
