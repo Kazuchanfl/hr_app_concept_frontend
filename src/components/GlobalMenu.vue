@@ -76,6 +76,8 @@ a {
   margin: 20px;
 
   color: white;
+
+  transition: 0.5s ;
 }
 
 a:hover {
