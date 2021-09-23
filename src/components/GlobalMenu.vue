@@ -24,13 +24,15 @@ export default defineComponent({
 <style scoped>
 *{box-sizing: border-box;}
 
-div {
+div.menu-background {
   background: aqua;
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
   width: 300px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 ul {
