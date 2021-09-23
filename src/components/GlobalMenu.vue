@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="menu-background">
   <ul>
     <li class="logo"><Logo></Logo></li>
     <li><a href="#">Home</a></li>
@@ -23,6 +23,15 @@ export default defineComponent({
 </script>
 <style scoped>
 *{box-sizing: border-box;}
+
+div {
+  background: aqua;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+}
 
 ul {
   padding-top: 1em;
