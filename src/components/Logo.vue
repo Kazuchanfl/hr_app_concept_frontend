@@ -28,6 +28,6 @@ a#Logo {
 }
 
 a#Logo:hover {
-  color: #bfbfbf;
+  color: #dddddd;
 }
 </style>

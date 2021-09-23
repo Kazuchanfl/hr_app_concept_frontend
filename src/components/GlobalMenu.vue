@@ -55,6 +55,6 @@ a {
 }
 
 a:hover {
-  color: #bfbfbf;
+  color: #dddddd;
 }
 </style>
