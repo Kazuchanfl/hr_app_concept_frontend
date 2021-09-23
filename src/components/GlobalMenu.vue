@@ -1,4 +1,5 @@
 <template>
+<div>
   <ul>
     <li class="logo"><Logo></Logo></li>
     <li><a href="#">Home</a></li>
@@ -9,6 +10,7 @@
     <li><a href="#">Explore</a></li>
     <li><a href="#">Settings</a></li>
   </ul>
+</div>
 </template>
 
 <script lang="ts">
@@ -23,7 +25,8 @@ export default defineComponent({
 *{box-sizing: border-box;}
 
 ul {
-    list-style: none;
+  padding-top: 1em;
+  list-style: none;
 }
 
 a {
