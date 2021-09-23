@@ -75,6 +75,7 @@ a {
 
   margin: 20px;
 
+  font-weight: bold;
   color: white;
 
   transition: 0.5s ;
