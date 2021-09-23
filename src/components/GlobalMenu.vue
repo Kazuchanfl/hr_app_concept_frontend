@@ -31,6 +31,7 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
+  text-decoration: none;
 
   margin: 20px;
 
