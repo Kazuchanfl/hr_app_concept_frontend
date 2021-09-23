@@ -50,7 +50,7 @@ div.menu-background::after {
   border-bottom-right-radius: 45px;
   filter: blur(20px);
 
-  transform: translateY(10px) scale(1.05);
+  transform: translateX(10px);
   mix-blend-mode: multiply;
 }
 
