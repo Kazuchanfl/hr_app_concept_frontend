@@ -24,4 +24,8 @@ a#Logo {
 
   color: #000000;
 }
+
+a#Logo:hover {
+  color: #bfbfbf;
+}
 </style>

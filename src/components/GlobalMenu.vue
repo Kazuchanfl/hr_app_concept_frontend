@@ -37,4 +37,8 @@ a {
 
   color: #000000;
 }
+
+a:hover {
+  color: #bfbfbf;
+}
 </style>
