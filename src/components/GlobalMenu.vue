@@ -1,13 +1,13 @@
 <template>
   <ul>
     <li class="logo"><Logo></Logo></li>
-    <li><p>Home</p></li>
-    <li><p>Mission & Values</p></li>
-    <li><p>Goals</p></li>
-    <li><p>Activities</p></li>
-    <li><p>Feedbacks</p></li>
-    <li><p>Explore</p></li>
-    <li><p>Settings</p></li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Mission & Values</a></li>
+    <li><a href="#">Goals</a></li>
+    <li><a href="#">Activities</a></li>
+    <li><a href="#">Feedbacks</a></li>
+    <li><a href="#">Explore</a></li>
+    <li><a href="#">Settings</a></li>
   </ul>
 </template>
 
@@ -26,7 +26,7 @@ ul {
     list-style: none;
 }
 
-p {
+a {
   font-size: 18px;
   display: flex;
   align-items: center;
