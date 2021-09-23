@@ -40,6 +40,11 @@ ul {
   list-style: none;
 }
 
+li {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 a {
   font-size: 18px;
   display: flex;
