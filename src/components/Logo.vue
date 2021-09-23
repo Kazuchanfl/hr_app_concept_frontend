@@ -24,7 +24,7 @@ a#Logo {
 
   margin: 20px;
 
-  color: #000000;
+  color: white;
 }
 
 a#Logo:hover {
