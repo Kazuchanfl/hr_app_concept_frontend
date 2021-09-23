@@ -1,5 +1,5 @@
 <template>
-  <h1>Go All Out</h1>
+  <a id="Logo" href="#">Go All Out</a>
 </template>
 
 <script lang="ts">
@@ -10,7 +10,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-h1 {
+a#Logo {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
