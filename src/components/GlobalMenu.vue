@@ -31,8 +31,8 @@ div.menu-background {
   top: 0;
   bottom: 0;
   width: 300px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
 }
 
 ul {
