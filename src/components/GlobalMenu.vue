@@ -35,6 +35,25 @@ div.menu-background {
   border-bottom-right-radius: 45px;
 }
 
+div.menu-background::after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(#f19aff, #66f6ff);
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  filter: blur(20px);
+
+  transform: translateY(10px) scale(1.05);
+  mix-blend-mode: multiply;
+}
+
 ul {
   padding-top: 1em;
   list-style: none;
