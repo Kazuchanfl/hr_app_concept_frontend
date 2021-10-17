@@ -24,71 +24,68 @@ export default defineComponent({
 <style scoped>
 *{box-sizing: border-box;}
 
-/* TODO takahashikazuaki define PC layout */
 @media screen and (min-width: 600px) {
-    ul {
-        display: none;
-    }
+  div.menu-background {
+    background: linear-gradient(#f19aff, #66f6ff);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+  }
+
+  div.menu-background::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(#f19aff, #66f6ff);
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    filter: blur(20px);
+
+    transform: translateX(10px);
+    mix-blend-mode: multiply;
+  }
+
+  ul {
+    padding-top: 1em;
+    list-style: none;
+  }
+
+  li {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  a {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    width: 150px;
+
+    margin: 20px;
+
+    font-weight: bold;
+    color: white;
+
+    transition: 0.5s ;
+  }
+
+  a:hover {
+    color: #dddddd;
+  }
 }
 
-div.menu-background {
-  background: linear-gradient(#f19aff, #66f6ff);
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 300px;
-  border-top-right-radius: 45px;
-  border-bottom-right-radius: 45px;
-}
 
-div.menu-background::after {
-  content: '';
-  display: block;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  background: linear-gradient(#f19aff, #66f6ff);
-  border-top-right-radius: 45px;
-  border-bottom-right-radius: 45px;
-  filter: blur(20px);
-
-  transform: translateX(10px);
-  mix-blend-mode: multiply;
-}
-
-ul {
-  padding-top: 1em;
-  list-style: none;
-}
-
-li {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-a {
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-decoration: none;
-
-  width: 150px;
-
-  margin: 20px;
-
-  font-weight: bold;
-  color: white;
-
-  transition: 0.5s ;
-}
-
-a:hover {
-  color: #dddddd;
-}
 </style>
