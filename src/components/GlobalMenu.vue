@@ -66,7 +66,7 @@ export default defineComponent({
   }
 
   a {
-    font-size: 18px;
+    font-size: 1em;
     display: flex;
     align-items: center;
     text-align: center;
