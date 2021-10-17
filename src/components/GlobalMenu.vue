@@ -24,6 +24,13 @@ export default defineComponent({
 <style scoped>
 *{box-sizing: border-box;}
 
+/* TODO takahashikazuaki define PC layout */
+@media screen and (min-width: 600px) {
+    ul {
+        display: none;
+    }
+}
+
 div.menu-background {
   background: linear-gradient(#f19aff, #66f6ff);
   position: absolute;
