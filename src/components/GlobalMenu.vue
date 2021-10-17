@@ -24,6 +24,38 @@ export default defineComponent({
 <style scoped>
 *{box-sizing: border-box;}
 
+ul {
+  padding-top: 1em;
+  list-style: none;
+}
+
+
+li {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+a {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+
+  width: 150px;
+
+  margin: 20px;
+
+  font-weight: bold;
+  /* color: white; */
+
+  transition: 0.5s ;
+}
+
+a:hover {
+  color: #dddddd;
+}
+
 @media screen and (min-width: 600px) {
   div.menu-background {
     background: linear-gradient(#f19aff, #66f6ff);
