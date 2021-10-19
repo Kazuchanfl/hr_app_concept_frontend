@@ -21,7 +21,7 @@ export default defineComponent({
     justify-content: center;
     align-items: center;
     z-index: 90;
-    background-color: #3584bb;
+    background: linear-gradient(#f19aff, #66f6ff);
 }
 .menu-btn span,
 .menu-btn span:before,
