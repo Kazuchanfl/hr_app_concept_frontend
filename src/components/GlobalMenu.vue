@@ -11,16 +11,30 @@
     <li><a href="#">Settings</a></li>
   </ul>
 </div>
-<HamburgerMenu></HamburgerMenu>
+<HamburgerMenu v-on:click="toggleMenu" v-bind:is-opened="menuIsOpened"></HamburgerMenu>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, reactive } from 'vue'
 import Logo from './Logo.vue'
 import HamburgerMenu from './HamburgerMenu.vue'
+
+const state = reactive({
+  menuIsOpened: false
+})
+
 export default defineComponent({
   components: { Logo, HamburgerMenu },
   name: 'GlobalMenu',
+  methods: {
+    toggleMenu: function() {
+      state.menuIsOpened = !state.menuIsOpened
+      console.log(state.menuIsOpened)
+    }
+  },
+  setup() {
+    return state
+  }
 })
 </script>
 <style scoped>
