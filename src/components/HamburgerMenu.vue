@@ -1,7 +1,6 @@
 <template>
     <div class="hamburger-menu">
-        <input type="checkbox" id="menu-btn-check" v-bind="isOpened">
-        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+        <button class="menu-btn"><span></span></button>
     </div>
 </template>
 <script lang="ts">
