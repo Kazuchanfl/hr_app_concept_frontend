@@ -12,6 +12,7 @@ export default defineComponent({
 </script>
 <style scoped>
 .menu-btn {
+    border: none;
     position: fixed;
     top: 10px;
     right: 10px;
