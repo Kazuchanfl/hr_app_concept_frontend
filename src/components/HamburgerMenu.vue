@@ -14,11 +14,11 @@ export default defineComponent({
 .menu-btn {
     border: none;
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 1em;
+    right: 1em;
     display: flex;
-    height: 60px;
-    width: 60px;
+    height: 5em;
+    width: 5em;
     justify-content: center;
     align-items: center;
     z-index: 90;
