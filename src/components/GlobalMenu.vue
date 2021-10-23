@@ -20,7 +20,7 @@ import Logo from './Logo.vue'
 import HamburgerMenu from './HamburgerMenu.vue'
 
 const state = reactive({
-  menuIsOpened: false
+  menuIsOpened: true
 })
 
 export default defineComponent({
