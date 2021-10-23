@@ -1,5 +1,5 @@
 <template>
-<div class="menu-background">
+<div class="menu-background" v-if="menuIsOpened">
   <ul>
     <li class="logo"><Logo></Logo></li>
     <li><a href="#">Home</a></li>
@@ -30,7 +30,7 @@ export default defineComponent({
     toggleMenu: function() {
       state.menuIsOpened = !state.menuIsOpened
       console.log(state.menuIsOpened)
-    }
+    },
   },
   setup() {
     return state
